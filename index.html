@@ -2,75 +2,123 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="js/app.js">
     </script>
   </head>
   <body>
-    <div id="container">
-      <div id="navBar">
-        <a href="#About_Me">About Me</a>
-        <a href="#Projects">Projects</a>
-        <a href="#Resume">Resume</a>
-        <a href="#Contact">Contact</a>
+    <div class="container-fluid p-0 overflow-hidden">
+      <nav class="navbar align-items-center d-flex flex-column flex-md-row navbar-dark bg-dark fixed-top">
+        <a class="d-flex align-items-center text-decoration-none" id="logo" href="#"> GK</a>
+        <div class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+          <div class="nav-item">
+            <a  class="nav-link text-white" href="#About_Me">About Me</a>
+          </div>
+          <div class="nav-item">
+            <a  class="nav-link text-white" href="#Projects">Projects</a>
+          </div>
+          <div class="nav-item">
+            <a  class="nav-link text-white" href="#Resume">Resume</a>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link text-white" href="#Contact">Contact</a>
+          </div>
+        </div>
+      </nav>
+      <div id="landingContainer">
+        <h2>George Kavallieratos </h2>
+        <h3> Fullstack Software Developer based in New York City</h3>
+        <div id="imageCircle">
+        </div>
       </div>
-      <h2>My name is George Kavallieratos.  I am a Fullstack Software Developer based in New York City.</h2>
-      <h2 id="About_Me">About Me</h2>
-      <p> I am a software engineer with 15+ years of management experience in the food industry.  I meticulously apply detail oriented strategies in pursuit of quality.  I find the differences in understanding between people and I connect the dots for improved communication in a team.  I notice what makes interfaces rough and think of solutions to make them more intuitive to the user.
-      </p>
-      <h2>Languages</h2>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Python</li>
-      </ul>
-      <h2>Frameworks and Libraries</h2>
-      <ul>
-        <li>React</li>
-        <li>Peewee</li>
-        <li>Mongoose</li>
-        <li>Flask</li>
-        <li>Express</li>
-        <li>EJS</li>
-        <li>jQuery</li>
-        <li>Bootstrap</li>
-      </ul>
-      <h2>Databases</h2>
-      <ul>
-        <li>MongoDB</li>
-        <li>PostgreSQL</li>
-      </ul>
-      <h2>Miscellaneous</h2>
-      <ul>
-        <li>Git</li>
-        <li>GitHub</li>
-        <li>Node</li>
-      </ul>
-      <h2>Experience</h2>
-      <ul>
-        <li>General Assembly</li>
-        <li>Fresco Deli Cafe</li>
-      </ul>
-      <h2>Education</h2>
-      <ul>
-        <li>Laguardia Community College</li>
-        <li>General Assembly</li>
-      </ul>
-      <h2 id="Projects">Projects</h2>
-      <ul>
-        <li><a href="https://georgekaval.github.io/Blackjack-game/">Blackjack</a></li>
-        <li><a href="https://finding-fights-app.herokuapp.com/">Fight Finder</a></li>
-        <li><a href="https://tourism-frontend.herokuapp.com/">Kefalonia Tourism</a></li>
-      </ul>
-      <h2 id="Resume">Resume</h2>
-      <a href="https://docs.google.com/document/d/1m6A7xSlbu7Padt1iDG65JQxZFs2HBXhPCGG4W4B7UUU/edit#">Resume</a>
-
-      <h2 id="Contact">Contact</h2>
-      <a href="https://www.linkedin.com/in/george-kavallieratos-200/">Linkedin</a>
-      <a href="https://github.com/georgekaval">GitHub</a>
-      georgealkaval@gmail.com
+      <div class="p-4 p-md-5  text-white  bg-dark centerText">
+        <h2 id="About_Me">About Me</h2>
+        <p> I am a software engineer with 15+ years of management experience in the food industry.  I meticulously apply detail oriented strategies in pursuit of quality.  I find the differences in understanding between people and I connect the dots for improved communication in a team.  I notice what makes interfaces rough and think of solutions to make them more intuitive to the user.
+        </p>
+      </div>
+      <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+        <div class="row">
+          <div class='col'>
+            <h2>Languages</h2>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Python</li>
+            </ul>
+          </div>
+          <div class='col'>
+            <h2>Frameworks and Libraries</h2>
+            <ul>
+              <li>React</li>
+              <li>Peewee</li>
+              <li>Mongoose</li>
+              <li>Flask</li>
+              <li>Express</li>
+              <li>EJS</li>
+              <li>jQuery</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h2>Databases</h2>
+            <ul>
+              <li>MongoDB</li>
+              <li>PostgreSQL</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h2 class="col">Miscellaneous</h2>
+            <ul>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>Node</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 p-md-5 mb-4">
+        <div class="centerText">
+          <h2>Experience</h2>
+          <ul>
+            <li>General Assembly</li>
+            <li>Fresco Deli Cafe</li>
+          </ul>
+        </div>
+        <div class="centerText">
+          <h2>Education</h2>
+          <ul>
+            <li>Laguardia Community College</li>
+            <li>General Assembly</li>
+          </ul>
+        </div>
+      </div>
+      <div class="p-4 p-md-5  text-white  bg-dark centerText">
+        <div>
+          <h2 id="Projects">Projects</h2>
+          <ul>
+            <li><a href="https://georgekaval.github.io/Blackjack-game/">Blackjack</a></li>
+            <li><a href="https://finding-fights-app.herokuapp.com/">Fight Finder</a></li>
+            <li><a href="https://tourism-frontend.herokuapp.com/">Kefalonia Tourism</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 id="Resume">Resume</h2>
+          <a href="https://docs.google.com/document/d/1m6A7xSlbu7Padt1iDG65JQxZFs2HBXhPCGG4W4B7UUU/edit#">Resume</a>
+        </div>
+      </div>
+      <div class="p-4 p-md-5 mb-4 centerText">
+        <h2 id="Contact">Contact</h2>
+        <a href="https://www.linkedin.com/in/george-kavallieratos-200/">Linkedin</a>
+        <a href="https://github.com/georgekaval">GitHub</a>
+        georgealkaval@gmail.com
+      </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
   </body>
 </html>
