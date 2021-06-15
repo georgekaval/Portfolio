@@ -1,6 +1,6 @@
 #landingContainer{
   padding-top: 100px;
-  height: 500px;
+  height: 600px;
   text-align: center;
 }
 #imageCircle{
@@ -11,6 +11,7 @@
   border-radius: 50%;
   background-image: url("../assets/profilePic.png");
   background-size: cover;
+
 }
 
 .centerText{
@@ -36,5 +37,29 @@ ul{
 .projectImage{
   width: 400px;
   padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+#name{
+  font-size: 70px;
+}
+
+#role{
+  padding-bottom: 30px;
+}
+
+#About_Me{
+  padding-bottom: 30px;
+}
+
+#Projects{
+  padding-bottom: 30px;
+}
+
+#Resume{
+  padding-bottom: 30px;
+}
+
+#Contact{
   padding-bottom: 30px;
 }
