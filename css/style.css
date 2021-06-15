@@ -9,8 +9,8 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
-  background-image: url("../assets/myImage.jpeg");
-  background-size: contain;
+  background-image: url("../assets/profilePic.png");
+  background-size: cover;
 }
 
 .centerText{
@@ -35,5 +35,6 @@ ul{
 
 .projectImage{
   width: 400px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
