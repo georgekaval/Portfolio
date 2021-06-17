@@ -36,8 +36,9 @@ ul{
 
 .projectImage{
   width: 400px;
+  height: 300px;
   padding-top: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 #name{
@@ -62,4 +63,17 @@ ul{
 
 #Contact{
   padding-bottom: 30px;
+}
+
+.textColor{
+  color: black;
+}
+
+.col{
+  padding-top: 30px;
+}
+
+.btn-primary{
+  margin-bottom: 10px;
+
 }
